@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/*Versão impressora*/
+body{
+    background: black url(../imagens/back-print.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+main h1{
+     text-shadow: none;
+    color: black;
+}
+main{
+    border: 1px solid black;
+}
+main::after{
+    font-size: 0.5em;
+    content: 'Essa impressão foi feita através do site www.cursoemvideo.com';
+    text-decoration: overline;
+}
+img#phone {
+    display: none;
+}
+
+img#print {
+    display: block;
+}

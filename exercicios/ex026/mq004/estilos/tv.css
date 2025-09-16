@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*Versão mobile first*/
+body{
+    background: black url(../imagens/back-tv.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img#phone {
+    display: none;
+}
+
+img#tv {
+    display: block;
+}

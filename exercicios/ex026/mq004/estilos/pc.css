@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*Versão pc*/
+body{
+    background: black url(../imagens/back-pc.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img#phone {
+    display: none;
+}
+
+img#pc {
+    display: block;
+}
