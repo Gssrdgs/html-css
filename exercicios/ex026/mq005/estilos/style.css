@@ -39,10 +39,11 @@ menu>ul>li>a{
     display: block;
     padding: 10px;
     text-decoration: none;
-    background-color: rgb(51, 50, 50);
+    background-color: rgba(51, 50, 50, 0.589);
     color: white;
     text-align: center;
     border-top: 2px solid rgb(185, 185, 185);
+    border-radius: 10px;
 }
 menu>ul>li>a:hover{
     background-color: gray;
